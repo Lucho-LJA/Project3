@@ -45,6 +45,24 @@
         <p>
           To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
         </p>
+        <code>
+          function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");
+        </code>
+        <code>if (true) { var x = 5; } console.log(x); // 5</code>
+        <p>
+          This behavior changes, when using the let declaration introduced in
+          ECMAScript 2015.
+        </p>
+  
+        <code
+          >if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+          defined</code
+        >
+        <code>const PI = 3.14;</code>
+        <code
+        >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code
+      >
 
       </section>
       <section class="main-section" id="variables">
